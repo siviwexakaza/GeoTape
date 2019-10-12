@@ -1,0 +1,7 @@
+{
+  "name": "GeoTape",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
