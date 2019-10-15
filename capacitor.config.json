@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.siviwe.geotape",
   "appName": "GeoTape",
   "bundledWebRuntime": false,
   "npmClient": "npm",

@@ -1,9 +1,40 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content></ion-content>
+
+<ion-content fullscreen>
+  
+
+  <ion-card>
+      <img src="../../assets/me.jpg" />
+      <ion-card-header>
+        <ion-card-subtitle>Siviwe Xakaza</ion-card-subtitle>
+        <ion-card-title>Software Developer</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Graduated with a bachelors degree majoring in Software Engineering and Software Development. Worked as a Software
+        Engineer focusing on the backend and the SDLC. Also worked as a Full Stack Software Developer building REST APIs and 
+        mobile apps, as well as enterprise web applications.
+
+        <ion-grid>
+            <ion-row>
+              <ion-col>
+                  <ion-button (click)="openLinkedin()">
+                      <ion-icon name="logo-linkedin"></ion-icon> Linkedin
+                  </ion-button>
+               
+              </ion-col>
+              <ion-col>
+                  <ion-button (click)="openGithub()">
+                      <ion-icon name="logo-github"></ion-icon> Github
+                  </ion-button>
+              </ion-col>
+              
+            </ion-row>
+          </ion-grid>
+
+      </ion-card-content>
+
+      
+      
+    </ion-card>
+    
+</ion-content>
